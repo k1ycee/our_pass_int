@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1057040749439",
+    "project_id": "ourpass-aaf6a",
+    "storage_bucket": "ourpass-aaf6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057040749439:android:9b85b4eba726291048804a",
+        "android_client_info": {
+          "package_name": "com.example.ourpass_int"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057040749439-080h2i7pn1g3650jsk17vm1qk3tv4cvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ourpass_int",
+            "certificate_hash": "03506622278854d948ec6660568c808f71a38dd0"
+          }
+        },
+        {
+          "client_id": "1057040749439-aumrd96cmmvg8c5l1vfcmvro5pe82a60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAog0FfVLLrS2cgU-k_YzFv-UGEXL0slHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057040749439-aumrd96cmmvg8c5l1vfcmvro5pe82a60.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
