@@ -1,4 +1,3 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:ourpass_int/constants/routes.dart';
 import 'package:ourpass_int/models/user_weight_model.dart';
 import 'package:ourpass_int/presentation/view_models/base_vm.dart';

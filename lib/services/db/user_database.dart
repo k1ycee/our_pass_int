@@ -35,7 +35,10 @@ class UserDataBase {
   }
 
   Stream fetchUserWeights() {
-    weightCollection.snapshots().listen((event) {
+    weightCollection
+        .where('userId', isEqualTo: _auth.currentUser!.uid)
+        .snapshots()
+        .listen((event) {
       if (event.docs.isNotEmpty) {
         var weights = event.docs.map((weight) {
           return UserWeightModel.fromMap(
